@@ -15,6 +15,7 @@ public class Runner {
 				int opt = (Integer) Utilities.getInput(Integer.class, scan);
 				switch(opt) {
 				case -1:
+					scan.close();
 					return;
 				case 1:
 					System.out.println("Enter username: ");
